@@ -1,0 +1,2 @@
+/sbin/ifconfig -l | xargs -n1 /usr/sbin/ipconfig getifaddr > '/Users/seanwayland/Desktop/where_am_i/who_ami.txt'
+scp -i "/Users/seanwayland/Desktop/where_am_i/sean_music_flask.pem" /Users/seanwayland/Desktop/where_am_i/who_ami.txt ubuntu@ec2-3-141-191-84.us-east-2.compute.amazonaws.com:~/who_ami.txt

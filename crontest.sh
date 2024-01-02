@@ -1,0 +1,2 @@
+date +%Y%m%d%H%M%S > '/Users/seanwayland/Desktop/where_am_i/time_now.txt'
+scp -i "/Users/seanwayland/Desktop/where_am_i/sean_music_flask.pem" /Users/seanwayland/Desktop/where_am_i/time_now.txt ubuntu@ec2-3-141-191-84.us-east-2.compute.amazonaws.com:~/time_now.txt
